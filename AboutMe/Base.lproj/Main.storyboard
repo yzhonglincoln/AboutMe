@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lzi-N8-2Ee">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--School-->
+        <scene sceneID="W46-pP-mah">
+            <objects>
+                <viewController title="School" id="Xei-x8-O93" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JMn-oj-0Vl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lincoln_Seal" translatesAutoresizingMaskIntoConstraints="NO" id="Lxv-I8-3Qm">
+                                <rect key="frame" x="72.5" y="218.5" width="230" height="230"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="230" id="Cw0-nI-Jvc"/>
+                                    <constraint firstAttribute="width" constant="230" id="nq2-k2-p23"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.45009386540000001" green="0.98132258650000004" blue="0.4743030667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Lxv-I8-3Qm" firstAttribute="centerX" secondItem="JMn-oj-0Vl" secondAttribute="centerX" id="JFS-dd-mVj"/>
+                            <constraint firstItem="Lxv-I8-3Qm" firstAttribute="centerY" secondItem="JMn-oj-0Vl" secondAttribute="centerY" id="ViG-D1-4eJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="BUA-vy-dA4"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="School" image="TabBar_Bookmark" id="3If-Zc-Pvh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ea1-gC-wcM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="647" y="771"/>
+        </scene>
+        <!--Person-->
+        <scene sceneID="kBJ-Pr-0xh">
+            <objects>
+                <viewController title="Person" id="neu-Fi-i5n" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XRw-Nd-P7y">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="ULg-QV-UMU">
+                                <rect key="frame" x="84.5" y="288.5" width="206" height="90"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name: Alice Zhong" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iyl-yo-zSK">
+                                        <rect key="frame" x="0.0" y="0.0" width="206" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age: 17" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sOj-td-5hX">
+                                        <rect key="frame" x="0.0" y="30" width="81" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gender: Female" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uWC-MD-Pyc">
+                                        <rect key="frame" x="0.0" y="60" width="170.5" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.5409764051" blue="0.84731429820000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ULg-QV-UMU" firstAttribute="centerY" secondItem="XRw-Nd-P7y" secondAttribute="centerY" id="Cxu-ni-Fl8"/>
+                            <constraint firstItem="ULg-QV-UMU" firstAttribute="centerX" secondItem="XRw-Nd-P7y" secondAttribute="centerX" id="KLQ-m8-Wg9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Cxc-QQ-GvN"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Person" image="TabBar_Contacts" id="zYj-LI-byf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wCN-8B-elY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1409" y="772"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="ZLB-cF-GMp">
+            <objects>
+                <tabBarController id="lzi-N8-2Ee" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="H3b-42-bPb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Xei-x8-O93" kind="relationship" relationship="viewControllers" id="BwQ-w6-eL4"/>
+                        <segue destination="neu-Fi-i5n" kind="relationship" relationship="viewControllers" id="eP5-3y-A9y"/>
+                        <segue destination="qak-KD-H7P" kind="relationship" relationship="viewControllers" id="Vcp-bL-zQr"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dof-ha-yLd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1409" y="4"/>
+        </scene>
+        <!--Favorite-->
+        <scene sceneID="GhI-VY-TMW">
+            <objects>
+                <viewController title="Favorite" id="qak-KD-H7P" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tLC-9U-zc7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tangyuan" translatesAutoresizingMaskIntoConstraints="NO" id="agx-Fi-TQO">
+                                <rect key="frame" x="37.5" y="360" width="300" height="170"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="f8B-ww-rR2"/>
+                                    <constraint firstAttribute="height" constant="170" id="re7-iI-aU9"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ice_Cream" translatesAutoresizingMaskIntoConstraints="NO" id="8ey-iv-98L">
+                                <rect key="frame" x="67.5" y="150" width="240" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="KgC-xJ-esd"/>
+                                    <constraint firstAttribute="width" constant="240" id="yd7-t4-Get"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.47684186699999997" green="0.50480759139999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8ey-iv-98L" firstAttribute="centerX" secondItem="tLC-9U-zc7" secondAttribute="centerX" id="93e-wU-kMz"/>
+                            <constraint firstItem="agx-Fi-TQO" firstAttribute="top" secondItem="8ey-iv-98L" secondAttribute="bottom" constant="50" id="DTu-wR-iX0"/>
+                            <constraint firstItem="8ey-iv-98L" firstAttribute="top" secondItem="quA-jT-WjB" secondAttribute="top" constant="130" id="eai-qD-eS6"/>
+                            <constraint firstItem="agx-Fi-TQO" firstAttribute="centerX" secondItem="tLC-9U-zc7" secondAttribute="centerX" id="r3U-ts-T5L"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="quA-jT-WjB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Favorite" image="TabBar_Favorites" id="glo-qP-MhK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IrN-sp-LD0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2161" y="770"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Ice_Cream" width="1214" height="809"/>
+        <image name="Lincoln_Seal" width="150" height="149"/>
+        <image name="TabBar_Bookmark" width="27" height="24"/>
+        <image name="TabBar_Contacts" width="34" height="23"/>
+        <image name="TabBar_Favorites" width="28" height="26"/>
+        <image name="Tangyuan" width="300" height="168"/>
+    </resources>
+</document>
